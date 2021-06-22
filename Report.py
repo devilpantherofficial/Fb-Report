@@ -25,7 +25,7 @@ def Report():
         sys.stdout.flush()
 
 print '-' * 49 + H
-os.system('figlet " R E P O R T"')
+os.system('figlet " Fb-R E P O R T"')
 print P + '=' * 49
 B = raw_input(G + '[+]' + P + ' ID Target  : ')
 print '=' * 49
