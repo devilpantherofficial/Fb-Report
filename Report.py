@@ -24,7 +24,9 @@ def Report():
         sys.stdout.write(G + '\r[*] ' + P + 'Mulai Processing ... [%d%%] ' % d)
         sys.stdout.flush()
 
-
+print '-' * 49 + H
+os.system('figlet "Developed By : ASHRAF UDDIN
+★★ Fb-Report ★★"')
 print '-' * 49 + H
 os.system('figlet " R E P O R T"')
 print P + '=' * 49
