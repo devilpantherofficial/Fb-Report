@@ -24,11 +24,6 @@ def Report():
         sys.stdout.write(G + '\r[*] ' + P + 'Mulai Processing ... [%d%%] ' % d)
         sys.stdout.flush()
 
-print("""
-                Developed By : ASHRAF UDDIN
-
-                ★★ D P E-Mail Bomber ★★                
-""")
 print '-' * 49 + H
 os.system('figlet " R E P O R T"')
 print P + '=' * 49
