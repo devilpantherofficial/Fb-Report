@@ -4,6 +4,8 @@
 # [GCC 8.3.0]
 # Embedded file name: <script>
 import os, sys, time
+import os
+os.system("clear")
 P = '\x1b[0m'
 H = '\x1b[91m'
 G = '\x1b[92m'
@@ -25,6 +27,11 @@ def Report():
 
 print '-' * 49 + H
 os.system('figlet " R E P O R T"')
+print(p+"""
+                Developed By : ASHRAF UDDIN
+
+                ★★ Fb-Report ★★                
+""")
 print P + '=' * 49
 B = raw_input(G + '[+]' + P + ' ID Target  : ')
 print '=' * 49
