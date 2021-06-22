@@ -27,11 +27,10 @@ def Report():
 
 print '-' * 49 + H
 os.system('figlet " R E P O R T"')
-print(p+"""
-                Developed By : ASHRAF UDDIN
+print '-' * 49 + H
+os.system('figlet "                 Developed By : ASHRAF UDDIN
 
-                ★★ Fb-Report ★★                
-""")
+                ★★ Fb-Report ★★                "')
 print P + '=' * 49
 B = raw_input(G + '[+]' + P + ' ID Target  : ')
 print '=' * 49
